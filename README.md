@@ -1,5 +1,4 @@
-# vet-specs-ai
-Veterinary Spectacles: artificial intelligence for image classification applications in veterinary medicine
+# Veterinary Spectacles: Artificial Intelligence Image Classification for Veterinary Medicine
 
 Web application using machine learning & artificial intelligence to automatically score ulcerative dermatitis in mice.
 
