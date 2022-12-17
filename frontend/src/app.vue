@@ -1,15 +1,12 @@
 <script setup lang="ts">
 import HeaderNav from './components/header-nav.vue';
+import { useRoute } from 'vue-router';
+const route = useRoute();
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="min-h-full mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <HeaderNav :route-path="route.path" />
+    <div class="mt-20"><RouterView /></div>
   </div>
-  <HeaderNav msg="Vite + Vue" />
 </template>
