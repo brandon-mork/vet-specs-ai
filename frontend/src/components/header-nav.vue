@@ -14,19 +14,23 @@ const props = defineProps<{
         <h1 class="font-bold inline-block pl-3 font-mono text-2xl font-medium">vet specs</h1>
       </div>
       <div class="ml-10 flex items-baseline space-x-6">
-        <router-link to="/" :class="{ 'active font-bold': routePath === '/' }" class="text-slate-900 hover:bg-sky-200 px-3 py-2 rounded-md text-sm font-medium">
+        <router-link
+          to="/"
+          :class="{ 'active font-extrabold': routePath === '/' }"
+          class="text-slate-900 hover:bg-sky-200 px-3 py-2 rounded-md text-sm font-medium"
+        >
           Ulcerative Dermatitis
         </router-link>
         <router-link
           to="/features"
-          :class="{ 'active font-bold': routePath === '/features' }"
+          :class="{ 'active font-extrabold': routePath === '/features' }"
           class="text-slate-900 hover:bg-sky-200 px-3 py-2 rounded-md text-sm font-medium"
         >
           Features
         </router-link>
         <router-link
           to="/about"
-          :class="{ 'active font-bold': routePath === '/about' }"
+          :class="{ 'active font-extrabold': routePath === '/about' }"
           class="text-slate-900 hover:bg-sky-200 px-3 py-2 rounded-md text-sm font-medium"
         >
           About
