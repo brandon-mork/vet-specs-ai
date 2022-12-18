@@ -2,10 +2,10 @@
   <div class="flex items-center justify-center w-full">
     <label
       for="dropzone-file"
-      class="flex flex-col items-center justify-center w-full h-64 border-2 border-cyan-300 border-dashed rounded-lg cursor-pointer hover:bg-cyan-50"
+      class="flex flex-col items-center justify-center w-full h-64 border-2 border-sky-300 border-dashed rounded-lg cursor-pointer hover:bg-sky-50"
     >
       <div class="flex flex-col items-center justify-center pt-5 pb-6">
-        <svg aria-hidden="true" class="w-10 h-10 mb-3 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg aria-hidden="true" class="w-10 h-10 mb-3 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -13,11 +13,11 @@
             d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
           ></path>
         </svg>
-        <p class="mb-2 text-sm text-cyan-500">
+        <p class="mb-2 text-sm text-sky-500">
           <span class="font-semibold">Click to upload</span>
           or drag and drop
         </p>
-        <p class="text-xs text-cyan-500">SVG, PNG, JPG or GIF (MAX. 1 MB)</p>
+        <p class="text-xs text-sky-500">SVG, PNG, JPG or GIF (MAX. 1 MB)</p>
       </div>
       <input id="dropzone-file" type="file" class="hidden" />
     </label>
