@@ -7,4 +7,5 @@
   <div>Dr. Kristen Bagley - Veterinarian</div>
   <div>Brandon Mork - Software Engineer</div>
   <div>Tyler Sattler - Software Engineer</div>
+  <div>Penelope Bagley - Senior Code Cat</div>
 </template>
